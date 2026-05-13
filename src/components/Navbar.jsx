@@ -45,7 +45,7 @@ const Navbar = () => {
                     bg-purple-600 transition-all duration-300 group-hover:w-full'></span>
                 </a>
 
-                <a href="#certificate" className='relative text-white/80 transition 
+                <a href="#certifications" className='relative text-white/80 transition 
                 duration-300 hover:text-purple-600 group'>
                     <span>Certifications</span>
                     <span className='absolute left-0 -bottom-1 w-0 h-0.5 
@@ -97,9 +97,9 @@ const Navbar = () => {
                     
                 </a>
 
-                <a onClick={()=>setShowMenu(!showMenu)} href="#certificate" className='relative text-white/80 transition 
+                <a onClick={()=>setShowMenu(!showMenu)} href="#certifications" className='relative text-white/80 transition 
                 duration-300 hover:text-purple-600 group'>
-                    <span>Certificate</span>
+                    <span>Certifications</span>
                     
                 </a>
 
